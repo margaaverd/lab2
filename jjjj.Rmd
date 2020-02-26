@@ -1,0 +1,29 @@
+---
+title: "jjj"
+author: "Marga"
+date: "26/2/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Vectors
+
+
+
+```{r cars}
+bolas = c(rep("Rojas", 7), rep("Azul", 6))
+año = c(rep("2001", 10))
+1:20
+seq(2,40, by = 2)
+round(seq(17, 98, length.out = 30), 2)
+x = 1:10
+
+mi_function = function(x){
+  (x^2-1)/(x^2+1)
+}
+mi_function(x)
+```
+
